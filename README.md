@@ -12,7 +12,6 @@ This repository contains solutions to two problems assigned in the Theory of Com
 - Null Transitions and Epsilon Closure: Null transitions are handled, and epsilon closure is computed to optimize the NFA.
 - Reduction: Redundant states and transitions are removed from the NFA to optimize its size.
 - Printing NFA: The resulting NFA is printed for visualization.
-
 ### Usage
 - Compilation: Compile `build.cpp`.
 - Execution: Run the compiled executable, providing a regular expression as input. The program outputs the corresponding NFA representation.
@@ -24,6 +23,6 @@ This repository contains solutions to two problems assigned in the Theory of Com
 - Simulation: The NFA is simulated on the input string using breadth-first search (BFS).
 - Result Generation: The simulation generates a result string indicating acceptance or rejection at each position in the input string.
 ### Usage
-Compilation: Compile `run.cpp`.
-Execution: Run the compiled executable, providing the input string and NFA description as input. The program outputs the result string indicating acceptance or rejection.
+- Compilation: Compile `run.cpp`.
+- Execution: Run the compiled executable, providing the input string and NFA description as input. The program outputs the result string indicating acceptance or rejection.
 
