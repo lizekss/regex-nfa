@@ -1,8 +1,8 @@
 This repository contains solutions to two problems assigned in the Theory of Computation course. The tasks involve the conversion of regular expressions to Nondeterministic Finite Automata (NFA) and simulating the behavior of an NFA on a given input string.
 
-build.cpp: This file contains the implementation for converting a regular expression to an NFA. It reads a regular expression from standard input and prints a representation of the converted NFA to standard output.
+`build.cpp`: This file contains the implementation for converting a regular expression to an NFA. It reads a regular expression from standard input and prints a representation of the converted NFA to standard output.
 
-run.cpp: This file contains the implementation for simulating the behavior of an NFA on a given input string. It reads an NFA and an input string from standard input and outputs whether the input string is accepted by the NFA.
+`run.cpp`: This file contains the implementation for simulating the behavior of an NFA on a given input string. It reads an NFA and an input string from standard input and outputs whether the input string is accepted by the NFA.
 
 ## Implementation details:
 
@@ -14,7 +14,7 @@ run.cpp: This file contains the implementation for simulating the behavior of an
 - Printing NFA: The resulting NFA is printed for visualization.
 
 ### Usage
-- Compilation: Compile build.cpp.
+- Compilation: Compile `build.cpp`.
 - Execution: Run the compiled executable, providing a regular expression as input. The program outputs the corresponding NFA representation.
 
 
@@ -24,6 +24,6 @@ run.cpp: This file contains the implementation for simulating the behavior of an
 - Simulation: The NFA is simulated on the input string using breadth-first search (BFS).
 - Result Generation: The simulation generates a result string indicating acceptance or rejection at each position in the input string.
 ### Usage
-Compilation: Compile run.cpp.
+Compilation: Compile `run.cpp`.
 Execution: Run the compiled executable, providing the input string and NFA description as input. The program outputs the result string indicating acceptance or rejection.
 
